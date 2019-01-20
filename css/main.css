@@ -1,0 +1,54 @@
+
+body {
+    font-family:  'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #004d9d;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  header {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  section {
+    height: 100vh;
+    background-image: url('../img/sally_1.jpg');
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+  }
+  .image_2 {
+    background-image: url('../img/sally_2.jpg');
+  }
+  .image_3 {
+    background-image: url('../img/sally_3.jpg');
+  }
+  .image_4 {
+    background-image: url('../img/sally_4.jpg');
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  footer a {
+    margin-right: 5px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+
+  footer  a:hover {
+    color: #dddddd;
+  }
